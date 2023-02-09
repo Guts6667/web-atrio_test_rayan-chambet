@@ -35,7 +35,7 @@ const [color, setColor] = useState(colors.color1)
             setColor(colors.color4)
         }
 
-    }, [progression])
+    }, [colors.color1, colors.color2, colors.color3, colors.color4, progression])
 
 
     return(
