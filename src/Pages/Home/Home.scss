@@ -1,0 +1,13 @@
+.container__home {
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 100px;
+  &-title {
+    text-align: center;
+  }
+}

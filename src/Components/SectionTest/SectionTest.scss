@@ -1,0 +1,18 @@
+.container__test {
+  display: flex;
+  flex-direction: column;
+  row-gap: 115px;
+  &-btn {
+    display: flex;
+    column-gap: 25px;
+    button {
+      font-size: 14px;
+      text-align: center;
+      background-color: #373737;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  }
+}

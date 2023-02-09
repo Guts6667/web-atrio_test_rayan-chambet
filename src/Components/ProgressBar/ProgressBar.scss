@@ -1,0 +1,22 @@
+.container__progressbar {
+  &-title {
+    font-size: 14px;
+  }
+  &-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 20px;
+
+    .box-progressbar {
+      background-color: #373737;
+      height: 15px;
+      width: 100%;
+      display: flex;
+      span {
+        transition: "width .26s ease-in-out";
+      }
+    }
+  }
+}
